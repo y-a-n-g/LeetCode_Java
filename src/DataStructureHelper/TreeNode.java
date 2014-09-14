@@ -10,14 +10,14 @@ public class TreeNode {
 
 	public static TreeNode generateTestTree1(){
 		TreeNode root = new TreeNode(1);
-		TreeNode node1 = new TreeNode(3);
-		TreeNode node2 = new TreeNode(5);
-		TreeNode node3 = new TreeNode(6);
-		TreeNode node4 = new TreeNode(7);
-		TreeNode node5 = new TreeNode(8);
-		TreeNode node6 = new TreeNode(9);
-		TreeNode node7 = new TreeNode(12);
-		TreeNode node8 = new TreeNode(15);
+		TreeNode node1 = new TreeNode(2);
+		TreeNode node2 = new TreeNode(3);
+		TreeNode node3 = new TreeNode(4);
+		TreeNode node4 = new TreeNode(5);
+		TreeNode node5 = new TreeNode(6);
+		TreeNode node6 = new TreeNode(7);
+		TreeNode node7 = new TreeNode(8);
+		TreeNode node8 = new TreeNode(9);
 
 		root.left = node1;
 		root.right = node2;
