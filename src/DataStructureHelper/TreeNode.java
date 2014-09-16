@@ -59,4 +59,15 @@ public class TreeNode {
 
 		return root;
 	}
+	
+	public static TreeNode generateTestTree3(){
+		TreeNode root = new TreeNode(3);
+		TreeNode node1 = new TreeNode(6);
+		TreeNode node2 = new TreeNode(7);
+
+		root.left = node1;
+		root.right = node2;
+
+		return root;
+	}
 }

@@ -38,7 +38,7 @@ public class BinaryTreeLevelOrderTraversal {
 
 	public static void main(String[] args) {
 		BinaryTreeLevelOrderTraversal caller = new BinaryTreeLevelOrderTraversal();
-		TreeNode root = TreeNode.generateTestTree1();
+		TreeNode root = TreeNode.generateTestTree2();
 		List<List<Integer>> result = caller.levelOrder(root);
 		System.out.println(result);
 	}
