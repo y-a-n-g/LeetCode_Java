@@ -7,19 +7,12 @@ public class JudgementSubtree {
 	public boolean containSubTree(TreeNode root1, TreeNode root2){
 		if(root2 == null){
 			return true;
-		}else{
-			return isSubTree(root1, root2);
-		}
-	}
-
-	public boolean isSubTree(TreeNode root1, TreeNode root2){
-		if(root1 == null){
+		}else if( root1 == null){
 			return false;
-		}
-		if((root1.val == root2.val) && isMatch(root1, root2)){
+		}else if((root1.val == root2.val) && isMatch(root1, root2)){
 			return true;
 		}else{
-			return (isSubTree(root1.left, root2) || isSubTree(root1.right, root2));
+			return (containSubTree(root1.left, root2) || containSubTree(root1.right, root2));
 		}
 	}
 
