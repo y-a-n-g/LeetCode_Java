@@ -59,7 +59,7 @@ public class TreeNode {
 
 		return root;
 	}
-	
+
 	public static TreeNode generateTestTree3(){
 		TreeNode root = new TreeNode(2);
 		TreeNode node1 = new TreeNode(4);

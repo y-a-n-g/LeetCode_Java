@@ -11,7 +11,7 @@ public class SingleNumber {
 		}
 		return result;
 	}
-	
+
 	public static void main(String[] args) {
 		SingleNumber caller = new SingleNumber();
 		int[] input = {1,1,2,2,3,3,4,4,5};

@@ -5,9 +5,9 @@ import java.util.List;
 import DataStructureHelper.TreeNode;
 
 public class BinaryTreeInorderTraversal {
-	
+
 	List<Integer> result = new ArrayList<Integer>();
-	
+
 	public List<Integer> inorderTraversal(TreeNode root){
 		if(root != null){
 			inorderTraversal(root.left);

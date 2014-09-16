@@ -6,7 +6,7 @@ import DataStructureHelper.TreeNode;
 //Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 
 public class SameTree {
-	
+
 	public boolean isSameTree(TreeNode p, TreeNode q) {
 		if(p==null && q==null){
 			return true;
