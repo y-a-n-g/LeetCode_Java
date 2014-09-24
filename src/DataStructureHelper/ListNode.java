@@ -34,6 +34,21 @@ public class ListNode {
 		return root;
 	}
 	
+	public static ListNode generateList3(){
+		ListNode root = new ListNode(8);
+		ListNode n1 = new ListNode(5);
+		ListNode n2 = new ListNode(9);
+		ListNode n3 = new ListNode(2);
+		ListNode n4 = new ListNode(7);
+
+		root.next = n1;
+		n1.next = n2;
+		n2.next = n3;
+		n3.next = n4;
+
+		return root;
+	}
+	
 	public static void printList(ListNode root){
 		if(root == null){
 			return;
